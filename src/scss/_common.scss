@@ -1,0 +1,73 @@
+    @import '_mixin.scss';
+    .container {
+        @include blockCenter;
+        width: 80%;
+    }
+    
+    .clearfix {
+        @include clearfix;
+    }
+    
+    .pull-left {
+        float: left;
+    }
+    
+    .pull-right {
+        float: right;
+    }
+    
+    .pos-f {
+        position: fixed;
+    }
+    
+    .pos-a {
+        position: absolute;
+    }
+    
+    .pos-r {
+        position: relative;
+    }
+    
+    @include media(xs) {
+        .container {
+            width: 100%;
+        }
+    }
+    
+    @include media(md) {
+        .nav {
+            display: block!important;
+        }
+        .title {
+            display: block!important;
+        }
+        .tag {
+            display: block!important;
+        }
+    }
+    
+    @include media(lg) {
+        .container {
+            width: 80%!important;
+            @include blockCenter;
+        }
+        .time {
+            img {
+                display: inline-block!important;
+            }
+        }
+        .logo-bar {
+            form {
+                display: block!important;
+            }
+        }
+        .left-bar {
+            width: 75%!important;
+        }
+        .right-bar {
+            display: block!important;
+        }
+        .footer {
+            display: block!important;
+        }
+    }
