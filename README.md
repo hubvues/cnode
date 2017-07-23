@@ -1,7 +1,3 @@
-# demo3
-
-> y
-
 ## Build Setup
 
 ``` bash
